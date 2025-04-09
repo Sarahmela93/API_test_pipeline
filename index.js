@@ -1,5 +1,3 @@
-// index.js
-
 function add(a, b) {
     return a + b;
 }
@@ -19,9 +17,19 @@ function divide(a, b) {
     return a / b;
 }
 
+function absolute(n) {
+    return Math.abs(n);
+}
+
+function square(n) {
+    return n * n;
+}
+
 module.exports = {
     add,
     subtract,
     multiply,
-    divide
+    divide,
+    absolute,
+    square
 };
